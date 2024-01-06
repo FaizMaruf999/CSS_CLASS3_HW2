@@ -1,0 +1,55 @@
+.container{
+    
+    margin: auto;
+    background-color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.container a{
+    text-decoration: none;
+}
+.container li{
+    list-style: none;
+}
+body{
+    width: 100%;
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+}
+.container .logo{
+    width: 20%;
+   
+}
+.container .logo img{
+    width: 250px;
+    padding-left: 30px;
+}
+.container .nap{
+    width: 80%;
+    text-align: right;
+    
+
+}
+.nap ul li{
+    display: inline-block;
+    text-align: center;
+    font-size: 28px;
+    text-transform: capitalize;
+    padding: 30px 40px 40px 0;
+    color: black;
+}
+.nap ul li:hover{
+    color: red;
+    transition: 1s;
+}
+
+.nap ul img{
+    
+    display: inline-block;
+  margin: -11px 38px;
+    width: 250px;
+    border-radius: 15px;
+}
